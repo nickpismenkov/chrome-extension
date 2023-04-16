@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Test extension",
+    "description": "Test extension description",
+    "version": "1.0.0",
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open test extension"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
